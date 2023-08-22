@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T07:55:34.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="K0v95AP8T4ZHZbsUhf8I" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T09:47:58.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="MEtgFRZ9-s7c20jpWIoi" version="21.6.8" type="github">
   <diagram name="Page-1" id="6_Ie_lHbkk36_fpsY5KO">
     <mxGraphModel dx="1290" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -205,8 +205,8 @@
         <mxCell id="RZJ3kPTFEu2Ctu2qSpSS-94" value="Avis" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="334" y="769" width="160" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="RZJ3kPTFEu2Ctu2qSpSS-95" value="&lt;u&gt;idUtilisateur&lt;/u&gt;&lt;br&gt;&lt;u&gt;idRestaurant&lt;/u&gt;&lt;br&gt;avis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="365" y="803" width="90" height="60" as="geometry" />
+        <mxCell id="RZJ3kPTFEu2Ctu2qSpSS-95" value="&lt;u&gt;idUtilisateur&lt;/u&gt;&lt;br&gt;&lt;u&gt;idRestaurant&lt;/u&gt;&lt;br&gt;avis&lt;br&gt;note" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="365" y="798" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RZJ3kPTFEu2Ctu2qSpSS-96" value="UtilisateurGroupe" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="75" y="870" width="130" height="120" as="geometry" />
@@ -304,8 +304,8 @@
         <mxCell id="RZJ3kPTFEu2Ctu2qSpSS-122" value="Avis" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="1371" width="200" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="RZJ3kPTFEu2Ctu2qSpSS-123" value="&lt;u&gt;idUtilisateur INT PK FK NOT NULL&lt;/u&gt;&lt;br&gt;&lt;u&gt;idRestaurant&amp;nbsp;&lt;/u&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;INT PK FK NOT NULL&lt;/u&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;avis TEXT NOT NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="304" y="1405" width="210" height="60" as="geometry" />
+        <mxCell id="RZJ3kPTFEu2Ctu2qSpSS-123" value="&lt;u&gt;idUtilisateur INT PK FK NOT NULL&lt;/u&gt;&lt;br&gt;&lt;u&gt;idRestaurant&amp;nbsp;&lt;/u&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;INT PK FK NOT NULL&lt;/u&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;avis TEXT NOT NULL&lt;br&gt;note BOOLEAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="304" y="1400" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RZJ3kPTFEu2Ctu2qSpSS-124" value="UtilisateurGroupe" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="1472" width="206" height="120" as="geometry" />
